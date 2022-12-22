@@ -13,7 +13,7 @@ The aim of the course is to understand the basic terminology of data science and
 A tangent goal of this class is to increase confidence in our coding skills and to see and think how innovate in an enterprise using machine learning. (Taken from sylabus)
 
 #### Description of the project:
-This project aims to create a method a program that can identify a texts difficulty level in french on the standard language difficulty scale, A1, A2, B1, B2, C1, C1.
+This project aims to create a program that can identify a texts difficulty level in french on the standard language difficulty scale, A1, A2, B1, B2, C1, C1.
 
 In order to do so we were asked to follow specific methods at a first time (first part of the project; \[0:4.6\[ ). Those methods were :
 + Logistic Regression
