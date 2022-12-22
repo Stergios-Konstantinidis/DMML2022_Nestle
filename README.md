@@ -36,6 +36,28 @@ As the BERT model took up to 11 hours to calculate, you can find our [saved_weig
 
 #### Our results:
 
+##### Logistic Regression
+|   Model | CV |    Solver |     Specificity | max_iter | Accuracy |
+|--------:|---:|----------:|----------------:|---------:|---------:|
+| Log_Reg |  2 |     lbfgs |     Basic model |       10 |   0.4635 |
+| Log_Reg |  2 |     lbfgs | Label encoded Y |       10 |   0.4635 |
+| Log_Reg |  5 |     lbfgs | Label encoded Y |       10 |   0.4625 |
+| Log_Reg |  5 |     lbfgs | Label encoded Y |      100 |   0.4677 |
+| Log_Reg |  5 | newton-cg | Label encoded Y |      100 |  0.46770 |
+| Log_Reg |  5 |     lbfgs | Label encoded Y |      100 |  0.47083 |
+| Log_Reg | 10 |     lbfgs | Label encoded Y |      500 |  0.55208 |
+
+
+##### Naive Bayes and SVM 
+|        Model |                         Specificity | Accuracy |
+|-------------:|------------------------------------:|---------:|
+| Naives Bayes |                                     |   0.4823 |
+| Naives Bayes |                      Train Set= 0.9 |   0.5166 |
+|          SVM |                                     |   0.4583 |
+|          SVM |                       Train set=0.9 |   0.5270 |
+|          SVM | Train set=0.9 & Random state= 77777 |   0.5229 |
+
+
 ##### BERT
 | Model | Batch | Epoch | Specificity      | Accuracy |
 |-------|-------|-------|------------------|----------|
