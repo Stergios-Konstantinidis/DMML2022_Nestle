@@ -32,7 +32,7 @@ We decided to focus on 4 additionnal methods:
 
 Those methods were quite interesting to explore with Logistic Regression staying on the top of our ranking when used with the following parameters: solver='lbfgs', cv=10, max_iter=500, random_state = 50 no split
 
-As the BERT model took up to 11 hours to calculate, you can find our [saved_weights.pt here](https://filesender.switch.ch/filesender2/?s=download&token=55519e08-cd9a-4d32-b221-397a3bf34e2c)
+As the BERT model took up to 11 hours to calculate, you can find our [saved_weights.pt here](https://filesender.switch.ch/filesender2/?s=download&token=94bd9337-3af3-4a96-bc01-5f3f02df82d1)
 
 #### Our results:
 
@@ -76,4 +76,4 @@ By increasing the training set, in principle we got better results. For future i
 Additionnal data cleaning should have been used in retrospect, unfortunately after our first attempt in it (removal of integers and times), we found are accuracy significantly decreasing (to about 30%).
 
 ## Our video recap
-[Can be found here](https://filesender.switch.ch/filesender2/?s=download&token=55519e08-cd9a-4d32-b221-397a3bf34e2c)
+[Can be found here](https://youtu.be/mWCkUTexAu8)
