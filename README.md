@@ -20,4 +20,16 @@ In order to do so we were asked to follow specific methods at a first time (firs
 + KNN
 + Decision Tree Classifier
 + Random Forest Classifier
-At a second time we had to improvise and find
+
+At a second time we had to improvise and try additional methods and approach the question as we saw most fit.
+
+#### Our approach:
+We decided to focus on 4 additionnal methods:
++ Logistic Regression with Cross Validation
++ Support Vector Machine (SVM)
++ Naive Bayes
++ BERT
+
+Those methods were quite interesting to explore with Logistic Regression staying on the top of our ranking when used with the folowing parameters: solver='lbfgs', cv=10, max_iter=500, random_state = 50 no split
+
+As the BERT model took up to 11 hours to calculate, you can find our [saved_weights.pt here](https://filesender.switch.ch/filesender2/?s=download&token=55519e08-cd9a-4d32-b221-397a3bf34e2c)
