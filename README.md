@@ -66,3 +66,6 @@ As the BERT model took up to 11 hours to calculate, you can find our [saved_weig
 | BERT  | 1000  | 100   | Tokenization=50  | 0.33     |
 | BERT  | 10000 | 50    | Tokenization=100 | 0.35     |
 | BERT  | 1000  | 300   | Tokenization=100 | 0.40     |
+
+#### Review and summary of the result tables:
+We can notice that the model predicting the best and most reliable model is the logistic regression with cross validation
