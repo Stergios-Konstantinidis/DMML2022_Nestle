@@ -30,7 +30,7 @@ We decided to focus on 4 additionnal methods:
 + Naive Bayes
 + BERT
 
-Those methods were quite interesting to explore with Logistic Regression staying on the top of our ranking when used with the folowing parameters: solver='lbfgs', cv=10, max_iter=500, random_state = 50 no split
+Those methods were quite interesting to explore with Logistic Regression staying on the top of our ranking when used with the following parameters: solver='lbfgs', cv=10, max_iter=500, random_state = 50 no split
 
 As the BERT model took up to 11 hours to calculate, you can find our [saved_weights.pt here](https://filesender.switch.ch/filesender2/?s=download&token=55519e08-cd9a-4d32-b221-397a3bf34e2c)
 
@@ -68,4 +68,12 @@ As the BERT model took up to 11 hours to calculate, you can find our [saved_weig
 | BERT  | 1000  | 300   | Tokenization=100 | 0.40     |
 
 #### Review and summary of the result tables:
-We can notice that the model predicting the best and most reliable model is the logistic regression with cross validation
+We can notice that the best and most reliable model is the logistic regression with cross validation. However this model was very sensitive to variations in iterations or Cross-Validation
+
+The second model with the most consistent accuracy was the SVM, as it's accuracy was usually above 50%. By fine tuning it, we could get decent results.
+
+By increasing the training set, in principle we got better results. For future improvements on the model we should hence collect more data that could have identifiable levels.
+Additionnal data cleaning should have been used in retrospect, unfortunately after our first attempt in it (removal of integers and times), we found are accuracy significantly decreasing (to about 30%).
+
+## Our video recap
+[Can be found here](https://filesender.switch.ch/filesender2/?s=download&token=55519e08-cd9a-4d32-b221-397a3bf34e2c)
